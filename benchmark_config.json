@@ -1,0 +1,10 @@
+{
+    "proto": "./pb/echo.proto",
+    "call": "pb.Echo.Echo",
+    "total": 1000000,
+    "concurrency": 1000,
+    "data": {
+        "echo": "Hello Echo!"
+    },
+    "host": "localhost:5555"
+}
